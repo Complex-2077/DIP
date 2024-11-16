@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 读入图像
-image = cv2.imread('/Users/complex/Downloads/血管实验数据/IMG/Med-Retina-DRIVE-3.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('/Users/complex/Downloads/血管实验数据/IMG/Med-Coronary-ARCADE-3.png', cv2.IMREAD_GRAYSCALE)
 
 # 定义拉普拉斯核
 kernel = np.array([[-1, -1, -1], 
