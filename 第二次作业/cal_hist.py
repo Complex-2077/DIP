@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # 读取图像
-image = cv2.imread('result_image.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('./images/template.png', cv2.IMREAD_GRAYSCALE)
 
 # 检查图像是否成功读取
 if image is None:
